@@ -30,11 +30,11 @@ function combinationSumHelper(candidates, target, j, curr, result){
 let lesserSum;
 let arr = [1,2,3,4,5,6,7,8,9];
 let target = 10;
-const result = main(arr, target).map((x) => {
+const result = main(process.argv[2], process.argv.slice(3)).map((x) => {
     if (lesserSum === undefined || x.length < lesserSum) {
         lesserSum = x.length;
     }
     return x;
 }).filter(x => x.length == lesserSum)
-console.log(lesserSum)
+
 console.log(result);

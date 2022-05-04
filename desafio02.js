@@ -14,7 +14,7 @@ function main(x, arrivalTime) {
 }
 
 const x = process.argv[2];
-const arrivalTime = process.argv.splice(3).map(x => Number(x));
+const arrivalTime = process.argv.slice(3).map(x => Number(x));
 main(x, arrivalTime)
 
 //o exemplo dado no desafio
