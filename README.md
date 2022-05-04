@@ -10,7 +10,7 @@ Para iniciar o projeto você deve:
     - Entrar no diretório principal
     - executar o comando:
   ```
-  node nomeDoProjeto.js
+  node nomeDoDesafio.js
 ```
 obs: para os desafios 2 e 3 você deve passar os parâmetros na linha de comando
 
